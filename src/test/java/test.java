@@ -18,7 +18,7 @@ public class test extends parent {
 	public void check(@Optional("Chrmome") String browser)
 	{
 		System.out.println("browser is " + browser + "and thread is " + Thread.currentThread().getId());
-		logger.info("Test started");
+		logger.info("Test started hello");
 	}
 
 
