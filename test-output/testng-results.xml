@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T18:04:15 IST" name="Suite" finished-at="2024-09-26T18:04:25 IST" duration-ms="9810">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T18:04:15 IST" name="Test" finished-at="2024-09-26T18:04:23 IST" duration-ms="7814">
+      <class name="test">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:test@51e4ccb3]" started-at="2024-09-26T18:04:15 IST" name="getbrowser" finished-at="2024-09-26T18:04:22 IST" duration-ms="6790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method signature="check(java.lang.String)[pri:0, instance:test@51e4ccb3]" started-at="2024-09-26T18:04:22 IST" name="check" finished-at="2024-09-26T18:04:22 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test@51e4ccb3]" started-at="2024-09-26T18:04:22 IST" name="tearDown" finished-at="2024-09-26T18:04:23 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test -->
+    </test> <!-- Test -->
+    <test started-at="2024-09-26T18:04:15 IST" name="Test1" finished-at="2024-09-26T18:04:25 IST" duration-ms="9810">
+      <class name="test">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:test@2fab4aff]" started-at="2024-09-26T18:04:15 IST" name="getbrowser" finished-at="2024-09-26T18:04:24 IST" duration-ms="9064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method signature="check(java.lang.String)[pri:0, instance:test@2fab4aff]" started-at="2024-09-26T18:04:24 IST" name="check" finished-at="2024-09-26T18:04:24 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test@2fab4aff]" started-at="2024-09-26T18:04:24 IST" name="tearDown" finished-at="2024-09-26T18:04:25 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
